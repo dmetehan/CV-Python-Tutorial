@@ -32,3 +32,37 @@ x, y = 5, 0.2
 print(x, "+", y, "=", x + y)
 print(f"{x} + {y} = {x+y}")  # formatted strings
 
+
+sentence = "This course is THE BEST!"
+print(sentence)
+
+print(sentence.upper())
+
+print(sentence.lower())
+
+print(sentence.split(' '))
+
+print('-'.join(sentence.split(' ')))
+
+
+x, y = 5, 10
+if x > y:
+    print("x > y")
+elif x == y:
+    print("x == y")
+else:
+    print("x < y")
+
+
+for i in range(10):
+    print(i)
+
+
+objects = ["pc", "phone", "wallet"]
+for obj in objects:
+    print(obj)
+
+
+for i, obj in enumerate(objects):
+    print(i, obj)
+
