@@ -16,7 +16,7 @@ print(A @ B)  # matrix product
 
 print(A.dot(B))  # another matrix product
 
-print(np.ones((3, 4), dtype=float))
+print(np.ones((3, 5, 4), dtype=float))
 
 print(np.arange(12))
 
@@ -50,9 +50,8 @@ print(b[b < 5])
 b[b < 5] = 0
 print(b)
 
-print(np.sort(b))
-
 a = np.random.randint(0, 10, 5)
 print(a)
 
-np.sort()
+
+print(np.sort(a))

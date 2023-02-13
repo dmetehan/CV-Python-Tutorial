@@ -26,6 +26,7 @@ some_dict = {'key1': 5, 'key2': "computer", 'key3': 0.2}
 print(some_dict)
 print(some_dict.keys())
 print(some_dict.values())
+print(some_dict['key1'])
 
 
 x, y = 5, 0.2
@@ -62,6 +63,8 @@ objects = ["pc", "phone", "wallet"]
 for obj in objects:
     print(obj)
 
+for i in range(len(objects)):
+    print(i, objects[i])
 
 for i, obj in enumerate(objects):
     print(i, obj)

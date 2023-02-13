@@ -86,5 +86,5 @@ def getting_started_images():
 
 
 if __name__ == '__main__':
-    getting_started_images()
-    # getting_started_videos()
+    # getting_started_images()
+    getting_started_videos()
